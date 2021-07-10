@@ -31,11 +31,11 @@ const AuthForm = () => {
 
     if (isLogin) {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBSc3IYhwkS55-TgWH44XNr5_uHIXMX290";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]";
       fetch("");
     } else {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBSc3IYhwkS55-TgWH44XNr5_uHIXMX290";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]";
     }
 
     fetch(url, {
